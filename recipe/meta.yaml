@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.4.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggcorset_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggcorset/ggcorset_{{ version }}.tar.gz
-  sha256: 57f0fe991f6af0a361e4c15a4179061cd4e4012fe4b26861f05c8eac1779dc48
+  sha256: 317e46e6f0a6a15a73f910b2fbca96e9ba0f31b52cac538537a56c0087ec27a2
 
 build:
   merge_build_host: true  # [win]
