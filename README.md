@@ -1,11 +1,11 @@
-About r-ggcorset
-================
+About r-ggcorset-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggcorset-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ggcorset
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggcorset-feedstock/blob/main/LICENSE.txt)
 
 Summary: Corset plots are a visualization technique used strictly to visualize repeat measures at 2 time points (such as pre- and post- data). The distribution of measurements are visualized at each time point, whilst the trajectories of individual change are visualized by connecting the pre- and post- values linearly. These lines can be coloured to represent the magnitude of change, or other user-defined value. This method of visualization is ideal for showing the heterogeneity of data, including differences by sub-groups. The package relies on 'ggplot2' allowing for easy integration so that users can customize their visualizations as required. Users can create corset plots using data in either wide or long format using the functions gg_corset() or gg_corset_elongated(), respectively.
 
