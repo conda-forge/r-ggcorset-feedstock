@@ -26,16 +26,12 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-dplyr
     - r-gghalves
     - r-ggplot2
-    - r-ggstance
   run:
     - r-base
-    - r-dplyr
     - r-gghalves
     - r-ggplot2
-    - r-ggstance
 
 test:
   commands:
