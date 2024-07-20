@@ -1,6 +1,5 @@
 {% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ggcorset
@@ -13,8 +12,7 @@ source:
   sha256: c9450dd68067c00b6246fdd631296961a4c4ea186dd9d3d61c54af5e42b65cef
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
